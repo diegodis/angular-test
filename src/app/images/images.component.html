@@ -1,0 +1,11 @@
+imagenes uno
+<button (click)="initImages()">imagenes</button>
+<div class="row" *ngFor="let image of images">
+
+    <div class="col-lg-5 col-sm-5">
+      <h5> {{image.title}} </h5>
+    <div class="col-lg-4 col-sm-4 labelPrice">
+      Descripcion:
+      <div></div>  <span style="font-size:40px">{{image.description}}</span> </div>
+    </div>
+  </div>
